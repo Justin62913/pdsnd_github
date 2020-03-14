@@ -167,9 +167,9 @@ def display_data(df):
             print(df.iloc[start_loc:end_loc])
             start_loc += 5
             end_loc += 5
-
-            continue_display = input("Do you wish to continue?:").lower()
-            if continue_display == "no":
+            # continue to ask if user wants data and stop when the user says no
+            display_continue = input("Do you wish to continue?:").lower()
+            if display_continue == "no":
                 break
 
 
