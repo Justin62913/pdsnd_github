@@ -14,6 +14,14 @@ so you will need to install anaconda and python 3.x to run the file.
 - A text editor like atom 
 - A terminal (terminal on mac and linux or cygwin/gitbash for windows).
 
+## Built With 
+
+- Anaconda
+- Python 
+- Pandas
+- Numpy
+- Pycharm (IDE)
+
 ## Files used 
 
 - chicago.csv
@@ -31,3 +39,7 @@ so you will need to install anaconda and python 3.x to run the file.
 ### Books
 - Data Science Projects with python
 - Python for data science
+
+## Authors
+
+- Justin Johnson (Student)
