@@ -154,21 +154,22 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
+
 def display_data(df):
     """ This displays contents of the csv files if the users request them."""
-    start_location = 0
-    end_location = 5
+    start_loc = 0
+    end_loc = 5
 
     display_file = input("Would you like to see the raw data?: ").lower()
 
     if display_file == "yes":
-        while end_location <= df.shape[0] - 1:
-            print(df.iloc[start_location:end_location])
-            start_location += 5
-            end_location += 5
-
-            continue_display = input("Do you wish to continue?:").lower()
-            if continue_display == "no":
+        while end_loc <= df.shape[0] - 1:
+            print(df.iloc[start_loc:end_loc])
+            start_loc += 5
+            end_loc += 5
+            # continue to ask if user wants data and stop when the user says no
+            display_continue = input("Do you wish to continue?:").lower()
+            if display_continue == "no":
                 break
 
 
