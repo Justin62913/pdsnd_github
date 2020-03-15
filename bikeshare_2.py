@@ -156,7 +156,7 @@ def user_stats(df):
 
 
 def display_data(df):
-    """ This displays contents of the csv files if the users requests them."""
+    """ This displays contents of the csv files if the user requests them."""
     start_loc = 0
     end_loc = 5
 
