@@ -38,7 +38,7 @@ so you will need to install anaconda and python 3.x to run the file.
 
 ### Books
 - Data Science Projects with python
-- Python for data science
+- Python for data science, the ultimate guide.
 
 ## Authors
 
