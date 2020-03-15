@@ -43,3 +43,5 @@ so you will need to install anaconda and python 3.x to run the file.
 ## Authors
 
 - Justin Johnson (Student)
+
+## Licen
