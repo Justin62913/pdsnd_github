@@ -156,13 +156,13 @@ def user_stats(df):
 
 
 def display_data(df):
-    """ This displays contents of the csv files if the users request them."""
+    """ This displays contents of the csv files if the users requests them."""
     start_loc = 0
     end_loc = 5
 
-    display_file = input("Would you like to see the raw data?: ").lower()
+    display_files = input("Would you like to see the raw data?: ").lower()
 
-    if display_file == "yes":
+    if display_files == "yes":
         while end_loc <= df.shape[0] - 1:
             print(df.iloc[start_loc:end_loc])
             start_loc += 5

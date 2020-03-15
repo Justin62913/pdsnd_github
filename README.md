@@ -38,6 +38,7 @@ so you will need to install anaconda and python 3.x to run the file.
 
 ### Books
 - Data Science Projects with python
+<<<<<<< HEAD
 - Python for data science, the ultimate guide
 - python data analytic
 
@@ -48,3 +49,6 @@ so you will need to install anaconda and python 3.x to run the file.
 ## License 
 
 - MIT
+=======
+- Python for data science, the ultimate guide.
+>>>>>>> 911c8c33f41536b986041ab6d8dc6ed9c9f2a100

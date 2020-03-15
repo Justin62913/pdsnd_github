@@ -1,12 +1,16 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Example user template template
 
+<<<<<<< HEAD
 
 *.csv
 <<<<<<< HEAD
 
 =======
 >>>>>>> 163124035f56ece61bb567c3c4e091568806c90c
+=======
+*.csv
+>>>>>>> 911c8c33f41536b986041ab6d8dc6ed9c9f2a100
 # IntelliJ project files
 .idea
 *.iml
