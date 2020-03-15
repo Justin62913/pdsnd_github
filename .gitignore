@@ -3,7 +3,10 @@
 ### Example user template
 
 *.csv
+<<<<<<< HEAD
 
+=======
+>>>>>>> 163124035f56ece61bb567c3c4e091568806c90c
 # IntelliJ project files
 .idea
 *.iml

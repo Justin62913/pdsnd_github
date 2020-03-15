@@ -78,8 +78,8 @@ def time_stats(df):
     print("The most common day is: {}".format(str(df["week_day"].mode().values[0])))
 
     # display the most common start hour
-    common_start_hour = df["Start Time"].dt.weekday_name.value_counts().idxmax()
-    print("The most common hour is: {}".format(str(common_start_hour)))
+    common_hour = df["Start Time"].dt.weekday_name.value_counts().idxmax()
+    print("The most common hour is: {}".format(str(common_hour)))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
