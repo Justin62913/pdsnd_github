@@ -2,6 +2,10 @@
 ### Example user template template
 ### Example user template
 
+chicago.csv
+new_york_city.csv
+washington.csv
+
 # IntelliJ project files
 .idea
 *.iml
