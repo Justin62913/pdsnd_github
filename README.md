@@ -40,7 +40,7 @@ so you will need to install anaconda and python 3.x to run the file.
 - Data Science Projects with python
 <<<<<<< HEAD
 - Python for data science, the ultimate guide
-- python data analytic
+- python data analytic.
 
 ## Authors
 
